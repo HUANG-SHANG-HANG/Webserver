@@ -38,13 +38,13 @@
 
 ## 编译运行
 
-```bash
-cd build
-cmake ..
-make
-cd ..
-./build/server
-## 浏览器访问: http://服务器IP:8080/
+    cd build
+    cmake ..
+    make
+    cd ..
+    ./build/server
+
+浏览器访问: http://服务器IP:8080/
 
 ## 压力测试
 测试环境: 4核4G 腾讯云轻量服务器

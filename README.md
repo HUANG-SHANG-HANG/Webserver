@@ -149,26 +149,26 @@
 
 ---
 
-##  项目结构
+## 项目目录
 
-WebServer/
-├── CMakeLists.txt # 构建配置
-├── README.md # 项目文档
-├── static/ # 静态资源目录
-│ └── index.html # 默认主页
-└── src/
-├── main.cpp # 入口 + Reactor 事件循环
-├── http/
-│ ├── HttpConn.h # HTTP 连接处理
-│ └── HttpConn.cpp
-├── threadpool/
-│ └── ThreadPool.h # 线程池
-├── timer/
-│ ├── Timer.h # 最小堆定时器
-│ └── Timer.cpp
-└── log/
-├── Log.h # 日志模块
-└── Log.cpp
+    WebServer/
+    ├── CMakeLists.txt
+    ├── README.md  #默认主页
+    ├── static/
+    │   └── index.html
+    └── src/
+        ├── main.cpp
+        ├── http/   #处理http请求
+        │   ├── HttpConn.h
+        │   └── HttpConn.cpp
+        ├── threadpool/   #线程池
+        │   └── ThreadPool.h
+        ├── timer/
+        │   ├── Timer.h
+        │   └── Timer.cpp
+        └── log/
+            ├── Log.h
+            └── Log.cpp
 
 
 ---

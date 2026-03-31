@@ -38,7 +38,7 @@
 
 ## 编译运行
 
-    cd build
+    mkdir -p build &&  cd build
     cmake ..
     make
     cd ..

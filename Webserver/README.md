@@ -60,22 +60,24 @@
     wrk -t4 -c500 -d10s http://127.0.0.1:8080/
     
 ## 项目目录
-WebServer/
-├── CMakeLists.txt
-├── README.md
-├── static/
-│   └── index.html
-└── src/
-    ├── main.cpp
-    ├── http/
-    │   ├── HttpConn.h
-    │   └── HttpConn.cpp
-    ├── threadpool/
-    │   └── ThreadPool.h
-    ├── timer/
-    │   ├── Timer.h
-    │   └── Timer.cpp
-    └── log/
-        ├── Log.h
-        └── Log.cpp
-:注: build/ 和 server.log 为运行时生成，不纳入版本管理。
+
+    WebServer/
+    ├── CMakeLists.txt
+    ├── README.md
+    ├── static/
+    │   └── index.html
+    └── src/
+        ├── main.cpp
+        ├── http/
+        │   ├── HttpConn.h
+        │   └── HttpConn.cpp
+        ├── threadpool/
+        │   └── ThreadPool.h
+        ├── timer/
+        │   ├── Timer.h
+        │   └── Timer.cpp
+        └── log/
+            ├── Log.h
+            └── Log.cpp
+
+注: build/ 和 server.log 为运行时生成，不纳入版本管理。
